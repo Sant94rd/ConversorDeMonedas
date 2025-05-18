@@ -9,7 +9,7 @@ import java.util.*;
 
 
 public class ConversorAPI {
-    private static final String API_KEY = "fc424b74d616da0fdb87d5ac"; // ¡Reemplaza la clave!
+    private static final String API_KEY = "API_KEY"; // ¡Reemplaza la clave!
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
     private static final Scanner scanner = new Scanner(System.in);
     private static final Map<String, String> codigosMonedas = new HashMap<>();
